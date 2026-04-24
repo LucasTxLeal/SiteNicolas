@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultoria Nicolas Goulart</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        neon: '#CCFF00',
+                        dark: '#000000',
+                        gray900: '#111111',
+                        gray800: '#222222'
+                    },
+                    fontFamily: {
+                        title: ['Bebas Neue', 'sans-serif'],
+                        body: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { background-color: #000000; color: #ffffff; }
+        .glow-neon { box-shadow: 0 0 15px rgba(204, 255, 0, 0.4); }
+        .glow-neon:hover { box-shadow: 0 0 25px rgba(204, 255, 0, 0.8); }
+    </style>
+</head>
+<body class="font-body antialiased selection:bg-neon selection:text-dark">
+
+    <a href="https://wa.me/555391778004" target="_blank" class="fixed bottom-6 right-6 bg-neon text-dark p-4 rounded-full glow-neon z-50 flex items-center justify-center transition-transform hover:scale-105">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <header class="relative min-h-[90vh] flex flex-col items-center justify-center px-6 py-12 text-center bg-gradient-to-b from-gray900 to-dark">
+        <div class="w-40 h-40 md:w-56 md:h-56 rounded-full border-4 border-neon mb-8 overflow-hidden glow-neon">
+            <img src="./images/nicolas-1.jpeg" alt="Nicolas Goulart" class="w-full h-full object-cover">
+        </div>
+        
+        <h1 class="font-title text-5xl md:text-7xl text-white tracking-wide mb-4">
+            CONSULTORIA INDIVIDUALIZADA: <br> <span class="text-neon">NICOLAS GOULART</span>
+        </h1>
+        <p class="font-body text-lg md:text-xl text-gray-300 max-w-lg mb-10 font-light">
+            Transformo corpos com treino e estratégia. Chegou a hora de alcançar sua melhor versão.
+        </p>
+        
+        <a href="#planos" class="bg-neon text-dark font-title text-2xl tracking-widest px-10 py-4 rounded-lg glow-neon uppercase transition-transform hover:scale-105">
+            Quero Começar Agora
+        </a>
+    </header>
+
+    <section class="px-6 py-20 bg-dark">
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray900 p-6 rounded-xl border border-gray800 text-center transition-colors hover:border-neon flex flex-col items-center">
+                <div class="w-full h-32 mb-4 overflow-hidden rounded-lg">
+                    <img src="./images/nicolas-2.png" alt="Formatura Educação Física" class="w-full h-full object-cover object-top opacity-80 hover:opacity-100 transition-opacity">
+                </div>
+                <h3 class="font-title text-2xl mb-2">Formação Acadêmica</h3>
+                <p class="text-gray-400 text-sm">Educação Física com base científica sólida para garantir sua segurança e resultados.</p>
+            </div>
+            
+            <div class="bg-gray900 p-8 rounded-xl border border-gray800 text-center transition-colors hover:border-neon flex flex-col justify-center">
+                <i class="fas fa-dumbbell text-4xl text-neon mb-4"></i>
+                <h3 class="font-title text-2xl mb-2">Especialista</h3>
+                <p class="text-gray-400 text-sm">Foco total em musculação, hipertrofia e emagrecimento com técnicas comprovadas.</p>
+            </div>
+            
+            <div class="bg-gray900 p-8 rounded-xl border border-gray800 text-center transition-colors hover:border-neon flex flex-col justify-center">
+                <i class="fas fa-headset text-4xl text-neon mb-4"></i>
+                <h3 class="font-title text-2xl mb-2">Suporte 24h</h3>
+                <p class="text-gray-400 text-sm">Acompanhamento contínuo e feedback para tirar suas dúvidas sempre que precisar.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray900">
+        <div class="px-6 mb-10 text-center">
+            <h2 class="font-title text-4xl text-white mb-2">Protocolo em <span class="text-neon">30 Dias</span></h2>
+            <p class="text-gray-400 text-lg">Resultado do aluno Pedro</p>
+        </div>
+        
+        <div class="max-w-md mx-auto px-6">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="relative rounded-xl overflow-hidden border-2 border-gray800 bg-dark flex flex-col">
+                    <img src="./images/1.jpeg" alt="Antes" class="w-full h-56 object-cover object-center">
+                    <div class="bg-gray800 text-white text-center py-2 font-title text-xl tracking-wider uppercase">
+                        Antes
+                    </div>
+                </div>
+
+                <div class="relative rounded-xl overflow-hidden border-2 border-neon glow-neon bg-dark flex flex-col">
+                    <img src="./images/2.jpeg" alt="Depois" class="w-full h-56 object-cover object-center">
+                    <div class="bg-neon text-dark text-center py-2 font-title text-xl font-bold tracking-wider uppercase">
+                        Depois
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center bg-dark p-6 rounded-xl border border-gray800">
+                <p class="text-white font-body text-lg">Pedro finalizou o mês com</p>
+                <p class="font-title text-4xl text-neon mt-2 tracking-wide">+2kg DE MASSA MUSCULAR</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 py-20 bg-dark">
+        <div class="max-w-md mx-auto">
+            <h2 class="font-title text-4xl text-center mb-12">Como Funciona a <span class="text-neon">Metodologia</span></h2>
+            
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray800 before:to-transparent">
+                
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-neon bg-dark text-neon shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 font-title text-xl">1</div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded border border-gray800 bg-gray900">
+                        <div class="flex items-center mb-1"><i class="fas fa-clipboard-list text-neon mr-2"></i><h4 class="font-bold text-lg">Diagnóstico Inicial</h4></div>
+                        <p class="text-sm text-gray-400">Análise completa do seu perfil e objetivos.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-neon bg-dark text-neon shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 font-title text-xl">2</div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded border border-gray800 bg-gray900">
+                        <div class="flex items-center mb-1"><i class="fas fa-bullseye text-neon mr-2"></i><h4 class="font-bold text-lg">Estratégia</h4></div>
+                        <p class="text-sm text-gray-400">Plano de ação focado no seu resultado.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-neon bg-dark text-neon shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 font-title text-xl">3</div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded border border-gray800 bg-gray900">
+                        <div class="flex items-center mb-1"><i class="fas fa-dumbbell text-neon mr-2"></i><h4 class="font-bold text-lg">Treino Personalizado</h4></div>
+                        <p class="text-sm text-gray-400">Montagem do cronograma de exercícios.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-neon bg-dark text-neon shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 font-title text-xl">4</div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded border border-gray800 bg-gray900">
+                        <div class="flex items-center mb-1"><i class="fas fa-play text-neon mr-2"></i><h4 class="font-bold text-lg">Execução</h4></div>
+                        <p class="text-sm text-gray-400">Início da prática com instruções detalhadas.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-2 border-neon bg-dark text-neon shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 font-title text-xl">5</div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded border border-gray800 bg-gray900">
+                        <div class="flex items-center mb-1"><i class="fas fa-comments text-neon mr-2"></i><h4 class="font-bold text-lg">Feedback Contínuo</h4></div>
+                        <p class="text-sm text-gray-400">Suporte 24h para correções e ajustes no WhatsApp.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="planos" class="px-6 py-20 bg-gray900">
+        <h2 class="font-title text-4xl text-center mb-12">Escolha Seu <span class="text-neon">Plano</span></h2>
+        
+        <div class="max-w-md mx-auto flex flex-col gap-8">
+            <div class="relative bg-dark p-8 rounded-2xl border-2 border-neon glow-neon text-center mt-4">
+                <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-neon text-dark font-bold text-sm px-4 py-1 rounded-full uppercase tracking-wider">
+                    Melhor Custo-Benefício
+                </div>
+                <h3 class="font-title text-3xl mb-2">Plano Bimestral</h3>
+                <div class="text-5xl font-title text-white mb-6">
+                    <span class="text-2xl text-neon mr-1">R$</span>145<span class="text-lg text-gray-400 font-body"> / 2 meses</span>
+                </div>
+                <ul class="text-gray-300 text-sm space-y-4 mb-8 text-left">
+                    <li><i class="fas fa-check text-neon mr-2"></i>Treino individualizado</li>
+                    <li><i class="fas fa-check text-neon mr-2"></i>Suporte 24h via WhatsApp</li>
+                    <li><i class="fas fa-check text-neon mr-2"></i>Análise de execução de exercícios</li>
+                    <li><i class="fas fa-check text-neon mr-2"></i>Ajustes quinzenais de rotina</li>
+                </ul>
+                <a href="https://wa.me/555391778004" target="_blank" class="block w-full bg-neon text-dark font-title text-xl py-4 rounded-lg uppercase tracking-widest transition-opacity hover:opacity-90">
+                    Garantir Plano Bimestral
+                </a>
+            </div>
+
+            <div class="bg-dark p-8 rounded-2xl border border-gray800 text-center">
+                <h3 class="font-title text-3xl mb-2 text-gray-400">Plano Mensal</h3>
+                <div class="text-5xl font-title text-white mb-6">
+                    <span class="text-2xl text-gray-500 mr-1">R$</span>85<span class="text-lg text-gray-500 font-body"> / mês</span>
+                </div>
+                <ul class="text-gray-400 text-sm space-y-4 mb-8 text-left">
+                    <li><i class="fas fa-check text-gray-600 mr-2"></i>Treino individualizado</li>
+                    <li><i class="fas fa-check text-gray-600 mr-2"></i>Suporte via WhatsApp</li>
+                    <li><i class="fas fa-check text-gray-600 mr-2"></i>Análise de execução</li>
+                </ul>
+                <a href="https://wa.me/555391778004" target="_blank" class="block w-full bg-gray800 text-white font-title text-xl py-4 rounded-lg uppercase tracking-widest transition-bg hover:bg-gray700 border border-gray700">
+                    Escolher Plano Mensal
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark pt-20 pb-10 px-6 text-center border-t border-gray900">
+        <h2 class="font-title text-5xl mb-6">Pronto para a <span class="text-neon">Mudança?</span></h2>
+        
+        <a href="https://wa.me/555391778004" target="_blank" class="inline-flex items-center bg-neon text-dark font-title text-2xl px-10 py-5 rounded-lg glow-neon uppercase tracking-widest mb-12 transition-transform hover:scale-105">
+            <i class="fab fa-whatsapp mr-3 text-3xl"></i> Falar com Nicolas
+        </a>
+
+        <div class="flex flex-col items-center justify-center space-y-4">
+            <a href="https://instagram.com/goulartnicolas_" target="_blank" class="text-gray-400 hover:text-neon transition-colors flex items-center space-x-2 text-lg">
+                <i class="fab fa-instagram text-2xl"></i>
+                <span class="font-body font-semibold">@goulartnicolas_</span>
+            </a>
+            <p class="text-gray-500 text-sm mt-4 flex items-center space-x-2 justify-center">
+                <i class="fas fa-phone-alt"></i>
+                <span>(53) 9177-8004</span>
+            </p>
+            <p class="text-gray-700 text-xs mt-8">© 2026 Nicolas Goulart Consultoria. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
